@@ -2,18 +2,59 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>float</title>
-	<link rel="stylesheet" href="styles.css" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ЛР3 Шерстюк</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #f0f0f0;
+		}
+
+		.header {
+			margin-bottom: 2rem;
+		}
+
+		.button-container {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+		.button {
+			padding: 1rem 2rem;
+			font-size: 1.2rem;
+			color: #fff;
+			background-color: #007bff;
+			border: none;
+			border-radius: 30px;
+			cursor: pointer;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		.button:hover {
+			background-color: #0056b3;
+		}
+	</style>
 </head>
 
 <body>
-	<div class="container">
-		<div class="block top"></div>
-		<div class="block pink">pink</div>
-		<div class="block blue">blue</div>
-		<div class="block bottom"></div>
+	<div class="header">
+		<h1>Лабораторна робота №3</h1>
+		<p>ІО-22 Шерстюк Максим</p>
+	</div>
+	<div class="button-container">
+		<a href="/float.html" class="button">Go to Float Page</a>
+		<a href="/flex.html" class="button">Go to Flex Page</a>
 	</div>
 </body>
 
