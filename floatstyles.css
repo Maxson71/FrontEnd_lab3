@@ -33,7 +33,7 @@ html {
   background-color: pink;
   float: right;
   top: 15%;
-  left: 50%;
+  left: 0;
   line-height: 70vh;
 }
 
@@ -41,7 +41,7 @@ html {
   background-color: blue;
   float: left;
   top: 15%;
-  left: 0;
+  left: 50%;
   line-height: 70vh;
 }
 
