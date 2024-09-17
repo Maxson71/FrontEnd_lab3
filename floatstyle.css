@@ -1,0 +1,55 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.top {
+  background-image: url("https://st2.depositphotos.com/3649705/5390/v/450/depositphotos_53907791-stock-illustration-wave-line-flag-of-ukraine.jpg");
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pink,
+.blue {
+  width: 50%;
+  height: 70%;
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+}
+
+.pink {
+  background-color: pink;
+  float: right;
+  top: 15%;
+  left: 50%;
+  line-height: 70vh;
+}
+
+.blue {
+  background-color: blue;
+  float: left;
+  top: 15%;
+  left: 0;
+  line-height: 70vh;
+}
+
+.bottom {
+  background-image: url("https://st2.depositphotos.com/3649705/5390/v/450/depositphotos_53907791-stock-illustration-wave-line-flag-of-ukraine.jpg");
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  top: 85%;
+  left: 0;
+}
