@@ -31,15 +31,12 @@ html {
 
 .pink {
   background-color: pink;
-  float: right;
   top: 15%;
-  left: 0;
   line-height: 70vh;
 }
 
 .blue {
   background-color: blue;
-  float: left;
   top: 15%;
   left: 50%;
   line-height: 70vh;
